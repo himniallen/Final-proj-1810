@@ -27,7 +27,9 @@ and local storage for weapons.
 filter bar.
 
 week three
-I plan to use drag and drop for my weapon equiment and have that be 10 points under the hard things.
+I plan to use drag and drop for my weapon equiment.
+static site generator maybe done in c# but we will see becuase I dont' even know what that is or a method to use it. -- hard htings.
+
 and then hosting my web site on the other pages.
 then maybe making my 1410 final porject have an api part.  that might be what I do for bonus points.
 
