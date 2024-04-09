@@ -8,25 +8,24 @@
   color: var(--fourth-color);
 }
 
-body
-{
-    display: flex;
-    flex-direction: row;
+body {
+  display: flex;
+  flex-direction: row;
 }
 
 iframe {
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 
   width: 25%;
   height: 25%;
 }
 
-.links
-{
-    
+.LinkSection {
+  display: flex;
+  flex-direction: row;
 }
 
 a:link {
@@ -45,4 +44,10 @@ a:hover {
 
 a:active {
   text-decoration: underline;
+}
+
+.otherpages
+{
+    width: 25vmin;
+    height: auto;
 }
