@@ -1,0 +1,48 @@
+:root {
+  --background-color: rgb(12, 12, 12);
+  --secondary-color: rgb(72, 30, 20);
+  --thrid-color: rgb(155, 57, 34);
+  --fourth-color: rgb(242, 97, 63);
+  --text-color: rgb(218, 181, 80);
+  background-color: var(--background-color);
+  color: var(--fourth-color);
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+iframe {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+  width: 25%;
+  height: 25%;
+}
+
+.links
+{
+    
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
