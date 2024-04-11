@@ -97,7 +97,7 @@ going through and having things work to have it go and work.
     see if you can fit it in and couple days on APIS next week.
     go ahead and get started on tuesday.
     
-
+   Notes 4/9/2-24
 
 
 

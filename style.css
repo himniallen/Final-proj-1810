@@ -62,10 +62,9 @@ a:active {
 }
 
 
-.mentor :hover
+.mentor:hover
 {
   transform: scale(1.5);
-
 }
 
 #blackmentor
@@ -76,7 +75,7 @@ a:active {
 
 }
 
-#blackmentor :hover
+#blackmentor:hover
 {
   transform: rotateX(33) rotateY(25)  rotateZ(3);
 }
