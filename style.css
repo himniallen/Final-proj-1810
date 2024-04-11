@@ -55,4 +55,28 @@ a:active {
 .mentor
 {
     width: 20vmin;
+    height: auto;
+    transition: transform .2s;
+
+
+}
+
+
+.mentor :hover
+{
+  transform: scale(1.5);
+
+}
+
+#blackmentor
+{
+  width: 20vmin;
+  height: auto;
+  transition: transform .2s;
+
+}
+
+#blackmentor :hover
+{
+  transform: rotateX(33) rotateY(25)  rotateZ(3);
 }
