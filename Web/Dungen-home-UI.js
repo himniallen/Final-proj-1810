@@ -97,8 +97,88 @@ going through and having things work to have it go and work.
     see if you can fit it in and couple days on APIS next week.
     go ahead and get started on tuesday.
     
-   Notes 4/9/2-24
+   Notes 4/11/2-24
 
+  sometimes easier to have different things that work and have colapsing and side wide class and you go transisiton is this and outise - small 
+  us to have js work it for you. have it wait a second and slide out and update
+  um mayber have things to start and tweak and fine tune it.
+  make it open all the time unless you expect a lot of points what is the most critical parts and such.
+  contents is interisting
+  
+   Jidapa Angustti's ideas for me
+
+   get to every body is going to present thi thing to make elements adn create the.
+   had code is interisting
+      then you have the plugging in and thus having core to what do you build then vs now.
+      less work but still inportant to learn in school
+      db processing scripts and someone else would give the sql is interisting
+      job that does nothing and it crashed every thing else and 
+      then once had the script but that was it.
+      web browser
+      code review and it laptop it took 40 out of 50 minutes to buffer
+      thought was to see what books are shown instead of things that are different password auth and such.
+      thus leaving to admin
+      how to see if user is admin.
+      through some suchjusttions.
+      domian boolean admin is user.
+      this is first getting it to work
+      pasword in js on submit is valid correct password 
+      bool comes true am I an admin is render the checkbox as well.
+      not admin no controls
+      check local storage is preset
+      users have a guid of admin and role: admin
+      book: 
+      [
+      
+         {
+
+         }
+      ]
+
+      api needs to support any one on any page is only one user is logged in
+      I would have a dictionary key is Like a guid
+      Id is front end on local storage
+      does cureent id in storatage is usersesion object and goes in to come back.
+      null id and start form logged in session.
+      anad API knows who are you.
+      Minimal amount but ref to API to look it up.
+      pagenation costs API one cent for each item that it loads
+      they say we give you ten at a time
+      performance things is interhisting.
+      ts day is soon.
+      Having things be stored on API.
+      main purpose is food and study at same time online vs instory.
+      so Has main page not ready and some features their.
+      whats available and else
+      have all the photos that you need and basic fetures their.
+      60-80 percent is interisting and have it done this week and thursday go over the hard stuck on.
+      by end of week have things set up with data pipeline and such.
+      post requests and more the same after this week.
+      book orders vs armor orders public accessabule and have stuff ready for tues and thrusday.
+      good amout that is done and nearly ready.
+      cover images and to this
+      rasterize image is try to show on screen to not have enough to ahve things do it 
+      maybe four wide but screen is 3.
+      is one for finding true color is the term pixel interpolation
+      subsampleing is the step to get hteir.
+      any ways math algorithing is interisting.
+      would not be incorrects
+      starting to see the more blury look due to sub sampleing and compression is artifact of when make show the pixel to image.
+      run into a couple of times looks low quality to show smaller images then website.
+      then you have it going to be interpolated to ahve interisting and such
+      another thing is rgb is interisting.  Usually in RGB other ways
+      CMYK is because it is interisting not realy for web dev
+      rgb is in web  for our screen pizels ot look how we what it to look.
+      have in with those collors vs rgb medium outputs in htos collors.
+      non rasterized vector inages 
+      vector images are in vectors used to make things not grids math algor to make vector images
+      to basicly a math equation.
+      open source is possible from before and even persistant svg is vector file format and is easy to work wiht.
+      go to download file going to cat is interisthing
+      got some schema and graphic an d buch of cords and draw lines to cords.
+      strock and interisting.
+      is math equation you can zoom in infinately and never find pixel lines and nevr get that going on and recompute to that size.
+      put in rasterized bad but svg is 
 
 
  */
