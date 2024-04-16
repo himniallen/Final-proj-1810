@@ -1,4 +1,5 @@
 :root {
+  --link-section-background: rgb(29, 13, 13);
   --background-color: rgb(12, 12, 12);
   --secondary-color: rgb(72, 30, 20);
   --thrid-color: rgb(155, 57, 34);
@@ -26,6 +27,12 @@ iframe {
 .LinkSection {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  border: 1em;
+  border-color: var(--link-section-background);
+  border-style: solid;
+  background-color: var(--link-section-background);
+  height: 100vmin;
 }
 
 a:link {
@@ -36,10 +43,12 @@ a:link {
 a:visited {
   text-decoration: none;
   color: var(--text-color);
+  
 }
 
 a:hover {
   text-decoration: underline;
+  transform: scale(1.2);
 }
 
 a:active {
