@@ -93,3 +93,12 @@ a:active {
 .hidden {
   display: none;
 }
+
+#UserChoiceForm input:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+
+#UserChoiceForm input:nth-child(odd) {
+  background-color: var(--thrid-color);
+}
