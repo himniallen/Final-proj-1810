@@ -88,3 +88,8 @@ a:active {
 {
   transform: rotateX(33) rotateY(25)  rotateZ(3);
 }
+
+
+.hidden {
+  display: none;
+}
