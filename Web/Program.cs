@@ -14,6 +14,45 @@ app.MapGet("/RandomWeapon", () =>
     return weapon;
 });
 
+app.MapGet("/WeaponRarities", () =>
+{
+    if (Weapon.Qualities.Count < 8)
+    {
+        Weapon.Qualities =
+        [
+            WeaponQuality.Common,
+            WeaponQuality.Brother,
+            WeaponQuality.Uncommon,
+            WeaponQuality.Rare,
+            WeaponQuality.Epic,
+            WeaponQuality.Legendary,
+            WeaponQuality.Nuke,
+            WeaponQuality.Kakashi,
+            WeaponQuality.Banana,
+        ];
+    }
+
+    return Weapon.Qualities;
+});
+
+app.MapGet("/WeaponTypes", ()=>{
+        if (Weapon.Types.Count < 6)
+    {
+        Weapon.Types =
+        [
+            WeaponType.Sword,
+            WeaponType.Axe,
+            WeaponType.Bow,
+            WeaponType.Staff,
+            WeaponType.Dagger,
+            WeaponType.Banana
+        ];
+    }
+
+    return Weapon.Types;
+
+});
+
 app.Run();
 
 public class Weapon
@@ -28,7 +67,7 @@ public class Weapon
         QualityOfWeapon = (WeaponQuality)random.Next(Enum.GetValues(typeof(WeaponQuality)).Length);
     }
 
-        public Weapon(int level)
+    public Weapon(int level)
     {
         Random random = new Random();
         TypeOfWeapon = (WeaponType)random.Next(Enum.GetValues(typeof(WeaponType)).Length);
@@ -41,7 +80,12 @@ public class Weapon
             QualityOfWeapon = (WeaponQuality)2;
         }
     }
+    public static List<WeaponQuality> Qualities = new List<WeaponQuality>();
+    public static List<WeaponType> Types = new List<WeaponType>();
+
+
 }
 
-public enum WeaponType { Sword, Axe, Bow, Staff, Dagger }
-public enum WeaponQuality { Common,Brother, Uncommon, Rare, Epic, Legendary, Nuke,Kakashi, Banana}
+public enum WeaponType { Sword, Axe, Bow, Staff, Dagger,Banana }
+public enum WeaponQuality { Common, Brother, Uncommon, Rare, Epic, Legendary, Nuke, Kakashi, Banana }
+
