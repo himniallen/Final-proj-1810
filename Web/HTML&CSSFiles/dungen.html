@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="././DungeonUI.js" type="module"></script>
+  </head>
+  <body>
+    <section id="index-main" class="LinkSection">
+      <aside>Welcome to the dungeon.</aside>
+      <div>Where do you want to go?</div>
+      <ul class="Nav">
+        <li>
+          <div class="links">
+            <a href="shop.html">The shop</a>
+          </div>
+        </li>
+        <li>
+          <div class="links">
+            <a href="war.html">The battlezone</a>
+          </div>
+        </li>
+        <li>
+          <div class="links">
+            <a href="index.html">Home</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <figure>
+      <img class="mentor" id="BlackMentor" src="sensi.jpg" />
+      <figcaption>Your mentor.</figcaption>
+      <div class="Mentor Instructions" id="Index-Mentor-Instructions">
+        What are you going to do?
+      </div>
+      <form class="UserChoice" id="UserChoiceForm">
+        <input type="radio" id="fight" name="activity" value="fight">
+        <label for="fight">Fight</label><br>
+        <input type="radio" id="train" name="activity" value="train">
+        <label for="train">Train</label><br>
+        
+        <div id="fightOptions" class="hidden">
+          <p>Choose your weapon:</p>
+          <select name="weapon">
+            <option value="sword">Sword</option>
+            <option value="staff">Staff</option>
+            <option value="bow">Bow</option>
+            <option value="fists">Fists</option>
+          </select><br>
+        </div>
+        
+        <div id="trainOptions" class="hidden">
+          <p>Select your training type:</p>
+          <input type="checkbox" id="strength" name="training" value="strength">
+          <label for="strength">Strength Training</label><br>
+          <input type="checkbox" id="endurance" name="training" value="endurance">
+          <label for="endurance">Endurance Training</label><br>
+          <input type="checkbox" id="flexibility" name="training" value="flexibility">
+          <label for="flexibility">Flexibility Training</label><br>
+        </div>
+        <input type="submit" id="Submiting">
+      </form>
+    </figure>
+    <iframe
+      src="https://ia601700.us.archive.org/11/items/rick-astley-never-gonna-give-you-up-video_202011/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Video%29.mp4"
+    >
+    </iframe>
+  </body>
+</html>
