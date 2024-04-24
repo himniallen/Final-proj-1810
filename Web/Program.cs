@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using static System.Random;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
@@ -35,8 +39,9 @@ app.MapGet("/WeaponRarities", () =>
     return Weapon.Qualities;
 });
 
-app.MapGet("/WeaponTypes", ()=>{
-        if (Weapon.Types.Count < 6)
+app.MapGet("/WeaponTypes", () =>
+{
+    if (Weapon.Types.Count < 6)
     {
         Weapon.Types =
         [
@@ -86,6 +91,38 @@ public class Weapon
 
 }
 
-public enum WeaponType { Sword, Axe, Bow, Staff, Dagger,Banana }
-public enum WeaponQuality { Common, Brother, Uncommon, Rare, Epic, Legendary, Nuke, Kakashi, Banana }
+public enum WeaponType { Sword, Axe, Bow, Staff, Dagger, Banana };
+public enum WeaponQuality { Common, Brother, Uncommon, Rare, Epic, Legendary, Nuke, Kakashi, Banana };
 
+
+public class Armor
+{
+    int durability { get; set; }
+
+    WeaponQuality quality { get; set; }
+
+    public Armor(int qualityAttempt)
+    {
+        if (qualityAttempt <= 8)
+        {
+
+            bool parsed = false;
+            if (Enum.IsDefined(typeof(WeaponQuality), qualityAttempt))
+            {
+                Random random = new Random();
+
+                quality = (WeaponQuality)qualityAttempt;
+                durability = qualityAttempt * random.Next(2, 10) + 8;
+            }
+            else
+            {
+                    quality = WeaponQuality.Common;
+                    durability = 5;
+            }
+
+        }
+
+
+    }
+
+}
