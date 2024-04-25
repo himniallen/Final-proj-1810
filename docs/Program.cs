@@ -35,7 +35,6 @@ app.MapGet("/WeaponRarities", () =>
             WeaponQuality.Banana,
         ];
     }
-
     return Weapon.Qualities;
 });
 
@@ -53,9 +52,7 @@ app.MapGet("/WeaponTypes", () =>
             WeaponType.Banana
         ];
     }
-
     return Weapon.Types;
-
 });
 
 app.Run();
@@ -87,8 +84,6 @@ public class Weapon
     }
     public static List<WeaponQuality> Qualities = new List<WeaponQuality>();
     public static List<WeaponType> Types = new List<WeaponType>();
-
-
 }
 
 public enum WeaponType { Sword, Axe, Bow, Staff, Dagger, Banana };
@@ -105,7 +100,6 @@ public class Armor
     {
         if (qualityAttempt <= 8)
         {
-
             bool parsed = false;
             if (Enum.IsDefined(typeof(WeaponQuality), qualityAttempt))
             {
@@ -116,13 +110,9 @@ public class Armor
             }
             else
             {
-                    quality = WeaponQuality.Common;
-                    durability = 5;
+                quality = WeaponQuality.Common;
+                durability = 5;
             }
-
         }
-
-
     }
-
 }
