@@ -179,6 +179,7 @@ going through and having things work to have it go and work.
       strock and interisting.
       is math equation you can zoom in infinately and never find pixel lines and nevr get that going on and recompute to that size.
       put in rasterized bad but svg is 
-
+      if page is loading thing to do individually do that latter go to stopper.
+      API to Azure have the API
 
  */

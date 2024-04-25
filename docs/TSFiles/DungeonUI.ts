@@ -1,4 +1,4 @@
-import { playerCharacter } from "././Dungeon.Domain";
+import { playerCharacter } from "./Dungeon.Domain";
 
 
 
