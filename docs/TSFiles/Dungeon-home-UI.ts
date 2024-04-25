@@ -181,5 +181,55 @@ going through and having things work to have it go and work.
       put in rasterized bad but svg is 
       if page is loading thing to do individually do that latter go to stopper.
       API to Azure have the API
+      might be tricky latter
+      what did he do last year?  
+      you can he wants us to save that for latter
+      when we can use them more and for better.
+      this is the thing access ot have you accessed it for studnet benefits 
+      make an epmty c# API might as well use the final project
+      go to app services and create a web app with a subscription availible 
+      the free stuff ten for free until things load
+      go to things such as gmail and half and half if working on account stuff
+      your here for those with acounts 
+      once those settings made it would preview and create
+      .net 8 free teir select linux for it to work
+      will take a little bit.
+      at this point both of them won't work.
+      over here we will
+      go to somewhere and such and so forth
+      with acceptances
+      put them on the primeun teir not free becuas greedy barbarians
+      ok we got page issues
+      go home to appservices click things deployment Center is 
+      after selecting your proj.
+      after save up top due to having it not really working
+      click on your thing 
+      link it up with default doamin will show up to over view take a long time to load
+      is that how it works and such.
+      identity and create new with save uptop.
+      yep signing in to github is for.
+      things aren't trusted as much.
+      passes on the point for account trouble that he agrees with.
+      run from the root of your project propably build becuase all is in the API folder pull the sln to the top leve
+      that is done and  add thigns to add project solution
+      then the folder of the project that you want 
+      ref the csproj file if it works locally commit nad work.
+      bucket it larger than expected root of git repo
+      runnign things that ain't funcitonal
+      even though it is deployed our local js is from local host and such.
+      turn on locally it is interisting.
+      developing things is hard and such.
+      update to other urls form azure but not including the messages and slash.
+      now when you try to laod it we get something els
+      we have made network requests to the API with infinate looop and URLS just doing it is their for the points.
+      so late if you weren't in the account trouble things is interisting
+      document to show up latter write reports that we are learnign no presentation
+      presentation is not too crazy ut then we are interisting
+      APriel going through showing things slideshow presentatoin and code go over a lot of things
+      go over how you ment thre rubric items in final project.
+      not part of presentations is in it 
+      at the end you will have to have things work.
+      slides and browser demo and 5-8 minutes is three or four slides demonstrate it and paragraph of code that your proud of and different parts
+      
 
  */
