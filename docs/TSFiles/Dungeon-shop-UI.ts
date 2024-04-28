@@ -1,4 +1,12 @@
+import {
+    playerCharacter,
+    GetWeaponFromAPI,
+    
+} from "./Dungeon.Domain";
+
+
 // Get all draggable elements with class "Gear"
+
 const draggableElements = document.querySelectorAll(".Gear");
 
 // Get the drop zones

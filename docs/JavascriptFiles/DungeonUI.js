@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const Dungeon_Domain_1 = require("././Dungeon.Domain");
+const Dungeon_Domain_1 = require("./Dungeon.Domain");
 function doTraining() {
     // Get the selected training types
     const strengthTraining = document.getElementById("strength");

@@ -37,3 +37,22 @@ function GetWeaponFromAPI(level) {
         }
     });
 }
+
+
+export async function returnRandomGear()
+{
+    const Options = GetRandomGearFromDNDAPI();
+    const Choice = getRandomInt(0, 50)//Note their is more than fifty results but due to lazzy ness This will work.
+
+    Options.equipmen.forEach(element => {
+        
+    });
+}
+
+function getRandomInt(min,max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  
+
