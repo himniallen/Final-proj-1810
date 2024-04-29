@@ -5,52 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-    <script src="././Home-UI.js" type="module"></script>
+    <script src="././Dungeon-home-UI.js" type="module"></script>
   </head>
-  <section id="index-main" class="LinkSection">
-    <aside>Welcome to Home</aide>
-      <div>Where do you want to go?</div>
-      <ul class="Nav">
-        <li>
-          <div class="links">
-            <a href="dungen.html">The dungeon</a>
-          </div>
-        </li>
-        <li>
-          <div class="links">
-            <a href="shop.html">The shop</a>
-          </div>
-        </li>
-        <li>
-          <div class="links">
-            <a href="war.html">The battlezone</a>
-          </div>
-        </li>
-        <li>
-          <div class="links">
-            <a href="index.html">Home</a>
-          </div>
-        </li>
-      </ul>
+  <section class="nameInput">
+    <form type="Post">
+      <input id="name" name="name">
+      <label for="name">What is your name?</label>
+    </form>
+    <div>Where are you going?</div>
+    <button type="submit" id="StartWar">
+      Start War
+    </button>
+    <button type="submit" id="StartShop">
+      Shop
+    </button>
+    <button type="submit" id="dungen">
+      dungeon
+    </button>
   </section>
-  <body>
-    <audio src="CrazyFrog.mp3" controls="" id="CrazyFrog" Class="Music"></audio>
-
-    <section>
-        <figure>
-            <img class="mentor" id="BlackMentor" src="sensi.jpg"/>
-            <figcaption>
-                Your mentor.
-            </figcaption>
-            <div class="Mentor Instructions" id="Index-Mentor-Instructions">
-                Are you ready to fight?
-            </div>
-        </figure>
-    </section>
-    <section class="Iframes">
-        <iframe src="dungen.html" class="otherpages"></iframe>
-        <iframe src="shop.html" class="otherpages"></iframe>
-        <iframe src="war.html" class="otherpages" ></iframe>
-    </section>
   </body>
 </html>

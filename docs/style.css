@@ -119,3 +119,10 @@ a:active {
 #UserChoiceForm input:nth-child(odd) {
   background-color: var(--thrid-color);
 }
+
+
+.nameInput
+{
+  margin-top: 50vw;
+  margin-left: 49vw;
+}
