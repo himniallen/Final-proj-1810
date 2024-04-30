@@ -233,3 +233,50 @@ going through and having things work to have it go and work.
       
 
  */
+
+      /*
+      Final presentations what was cool or not
+      go ahead and show what they did and how it works.
+      look up form for filtering and number and submit is just the submit button.
+      pending resepie page is drop down and save vs submit inage and ancor tag
+      fifure is each catd and how things work.
+      ul list is asis is used in the description text and nave is the shared nave card at top
+      transiion flexbox and radious nth child to style inport resscipies and how ti works.
+      padding and navigation mastery
+      dom maniputlation and filter and map to select what things do and how they work.
+      main/ UI async await for stuff to call c# api and local storage
+      each thing card could be hard 
+      funcitionality and move buttons
+      or allow substitutes and how it works.
+      debugging and external APIs free plan had a lot of pages and into having thins domain thingsso your made folders for each page
+      end code.
+      live on vercel
+      zoom in on account system and sugnin page and how it works.
+      save and then complete it their and sent to API with completed recipe
+      after we made the github pages you broke all of my JS files
+      books and such their
+      example html is the form that you made and how it works
+      select how many are comming with a sword and how ti owrks
+      submit order and where you buy the books and card drag and drop able
+      as minimal as possible to the eyes and second part of cSS collor not on projector
+      great example as you write more but no on projectoers
+      continue the reservation pages.
+      picture to line up with collors
+      and css that you try to match up with picture and css and how ti works with put collors in vars
+      page is like mostly shared part
+      then flex again for things to work and different collors and different js when you subbmit it pops up message and proud of js
+      information locally and puts it to the user
+      and how things work part form js resevation page
+      how you drag and drop on the cart doesn't grow and it dieas
+      search bar is for books and javascript about books.
+      skills learned and struggles 
+      and then reset it all their to add to card and becomes scriolable and shrank nfor ever and madke it school ale
+      then you serach
+      do digging for sake of time
+      is it working
+      we iwl have to cut it short and how things work
+      css html and javascript and how ti works css and html fve trahs
+      literally is interisting
+      
+      
+      */
